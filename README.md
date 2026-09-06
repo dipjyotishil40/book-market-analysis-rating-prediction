@@ -30,7 +30,7 @@ The project uses the **Books to Scrape** website as the data source. A total of 
 - Seaborn
 - Scikit-learn
 - Joblib
-- Microsoft Power BI :contentReference[oaicite:2]{index=2}
+- Microsoft Power BI
 
 ## Project Workflow
 
