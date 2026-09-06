@@ -166,7 +166,8 @@ Row-Level Security (RLS)
 Total Books: 403
 Average Price: £49.91
 Price Range: £40.11–£59.99
-Key Insights
+
+#### Key Insights
 The catalogue contains 1,000 books across 50 categories.
 Average book price is £35.07.
 Premium books have a substantially higher average price than Budget and Mid-Range books.
@@ -175,6 +176,7 @@ Price and rating have an extremely weak correlation of approximately 0.028.
 The selected machine-learning features have limited predictive power.
 Random Forest slightly outperformed Linear Regression, but both models produced negative R² values.
 The Power BI dashboard provides interactive exploration from high-level KPIs to individual book details.
+
 ### Recommendations
 Continue using Budget, Mid-Range, and Premium price segmentation.
 Do not use price alone as an indicator of book quality or rating.
@@ -182,6 +184,7 @@ Introduce richer features such as textual, author, publication, and review-relat
 Monitor category-level performance carefully, especially for categories with small sample sizes.
 Use the Power BI dashboard for interactive catalogue analysis.
 Extend Row-Level Security to additional business roles in a larger real-world implementation.
+
 ### Limitations
 Books to Scrape is a practice/sandbox website, so the data does not represent the entire real-world book market.
 The dataset has no date or time field, so time-series analysis was not possible.
